@@ -45,7 +45,7 @@ def main():
     # The function calls the summarize_text() and answer_question() functions to perform text summarization and question answering
     # respectively, and displays the results using Streamlit interface.
     # """
-    st.title('Summarization and Questioning Model')
+    st.title('PDF Insight (Summarise PDF documents and works with text-based PDFs (not scanned images without OCR) (“Step 1: Upload PDF → Step 2: Generate summary”)')
 
     api_key = st.text_input('Your OpenAI Key', placeholder="Enter Your key")
     os.environ["OPENAI_API_KEY"] = api_key
